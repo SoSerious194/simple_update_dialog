@@ -1,3 +1,5 @@
-## 0.0.1
+## 1.0.0
 
-* TODO: Describe initial release.
+- Added logic for showing compulsory and optional update dialog
+- Added platform-specific dialog
+- Updated documentation
