@@ -8,6 +8,12 @@ A simple package for showing a paltform-specific dialog to promote users to upda
 
 To use this plugin, add `simple_update_dialog` as a [dependency in your pubspec.yaml file](https://flutter.dev/platform-plugins/).
 
+# Screenshots
+
+<img src="https://ibb.co/R94kLkR" height="300px" alt="Screenshot"/>
+
+<img src="https://ibb.co/8dDtrzp" height="300px" alt="Screenshot"/>
+
 ### Example
 
 <?code-excerpt "lib/basic.dart (basic-example)"?>
