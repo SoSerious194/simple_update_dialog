@@ -12,7 +12,7 @@ To use this plugin, add `simple_update_dialog` as a [dependency in your pubspec.
 
 <img src="https://github.com/SoSerious194/simple_update_dialog/blob/main/screenshots/android.png?raw=true" height="300px" alt="Screenshot"/>
 
-<img src="https://github.com/SoSerious194/simple_update_dialog/blob/main/screenshots/ios.png" height="300px" alt="Screenshot"/>
+<img src="https://github.com/SoSerious194/simple_update_dialog/blob/main/screenshots/ios.png?raw=true" height="300px" alt="Screenshot"/>
 
 ### Example
 

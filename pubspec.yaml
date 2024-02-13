@@ -2,7 +2,7 @@ name: simple_update_dialog
 description: A simple package for showing a paltform-specific dialog to promote users to update the app.
 repository: https://github.com/SoSerious194/simple_update_dialog
 homepage: https://github.com/SoSerious194/simple_update_dialog
-version: 1.0.1
+version: 1.0.2
 
 topics:
   - app-update

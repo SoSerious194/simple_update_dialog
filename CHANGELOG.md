@@ -1,3 +1,8 @@
+## 1.0.2
+
+- Updated logic for dismissing the dialog
+- Updated documentation
+
 ## 1.0.1
 
 - Updated documentation
