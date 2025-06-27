@@ -61,7 +61,7 @@ class SimpleUpdateDialog {
     Future.delayed(
       Duration.zero,
       () {
-        if (updateRequirement != UpdateRequirement.none) {
+        if (updateRequirement != UpdateRequirement.none && context.mounted) {
           showDialog(
             context: context,
             barrierDismissible: !showForceUpdate,

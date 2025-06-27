@@ -1,3 +1,8 @@
+## 1.0.3
+
+- Prevented dialog to be dismissed when tapped on the 'Update' button
+- Updated documentation
+
 ## 1.0.2
 
 - Updated logic for dismissing the dialog

@@ -56,7 +56,6 @@ class UpdateDialog extends StatelessWidget {
             isForceUpdate: isForceUpdate,
             positiveActionCallback: positiveActionCallback ??
                 () {
-                  Navigator.pop(context);
                   launchStoreLink(dialogConfig.appStoreUrl);
                 },
             negativeActionCallback: negativeActionCallback ??
@@ -73,7 +72,6 @@ class UpdateDialog extends StatelessWidget {
             isForceUpdate: isForceUpdate,
             positiveActionCallback: positiveActionCallback ??
                 () {
-                  Navigator.pop(context);
                   launchStoreLink(dialogConfig.playStoreUrl);
                 },
             negativeActionCallback: negativeActionCallback ??
