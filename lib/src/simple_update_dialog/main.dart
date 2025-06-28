@@ -66,16 +66,19 @@ class SimpleUpdateDialog {
             context: context,
             barrierDismissible: !showForceUpdate,
             builder: (context) {
-              return UpdateDialog(
-                title: title,
-                message: message,
-                isForceUpdate: showForceUpdate,
-                dialogConfig: dialogConfig,
-                dialogDecoration: dialogDecoration,
-                positiveActionText: positiveActionText,
-                negativeActionText: negativeActionText,
-                positiveActionCallback: positiveActionCallback,
-                negativeActionCallback: negativeActionCallback,
+              return PopScope(
+                canPop: false,
+                child: UpdateDialog(
+                  title: title,
+                  message: message,
+                  isForceUpdate: showForceUpdate,
+                  dialogConfig: dialogConfig,
+                  dialogDecoration: dialogDecoration,
+                  positiveActionText: positiveActionText,
+                  negativeActionText: negativeActionText,
+                  positiveActionCallback: positiveActionCallback,
+                  negativeActionCallback: negativeActionCallback,
+                ),
               );
             },
           ).then((_) {

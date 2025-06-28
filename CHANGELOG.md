@@ -1,3 +1,7 @@
+## 1.0.4
+
+- Prevented dialog to be dismissed when tapped on the physical back button
+
 ## 1.0.3
 
 - Prevented dialog to be dismissed when tapped on the 'Update' button
